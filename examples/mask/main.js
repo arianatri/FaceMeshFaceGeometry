@@ -132,6 +132,18 @@ const noseMaterial = new MeshStandardMaterial({
   metalness: 0.1,
   transparent: true,
 });
+const some_bad_material = new MeshStandardMaterial({
+  color: 0xffff10,
+  roughness: 0.4,
+  metalness: 0.1,
+  transparent: false,
+});
+
+const bad_object = new Mesh(new IcosahedronGeometry(1, 5), some_bad_material);
+bad_object.castShadow = bad_object.receiveShadow = true;
+scene.add(bad_object);
+nose.scale.setScalar(90);
+
 
 const nose = new Mesh(new IcosahedronGeometry(1, 3), noseMaterial);
 nose.castShadow = nose.receiveShadow = true;

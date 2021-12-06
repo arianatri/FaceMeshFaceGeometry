@@ -142,7 +142,7 @@ const some_bad_material = new MeshStandardMaterial({
 const bad_object = new Mesh(new IcosahedronGeometry(1, 5), some_bad_material);
 bad_object.castShadow = bad_object.receiveShadow = true;
 scene.add(bad_object);
-nose.scale.setScalar(90);
+bad_object.scale.setScalar(90);
 
 
 const nose = new Mesh(new IcosahedronGeometry(1, 3), noseMaterial);

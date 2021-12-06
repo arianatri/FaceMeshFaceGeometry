@@ -4,15 +4,15 @@ Three.js helper for FaceMesh https://github.com/tensorflow/tfjs-models/tree/mast
 
 ---
 
-Demo with textured mask: https://spite.github.io/FaceMeshFaceGeometry/examples/mask/index.html
+Demo with textured mask: https://arianatri.github.io/FaceMeshFaceGeometry/examples/mask/index.html
 
-Demo with remapped video: https://spite.github.io/FaceMeshFaceGeometry/examples/video/index.html
+Demo with remapped video: https://arianatri.github.io/FaceMeshFaceGeometry/examples/video/index.html
 
-Demo with instanced geometry: https://spite.github.io/FaceMeshFaceGeometry/examples/instanced/index.html
+Demo with instanced geometry: https://arianatri.github.io/FaceMeshFaceGeometry/examples/instanced/index.html
 
-Demo of texture mapping from an image: https://spite.github.io/FaceMeshFaceGeometry/examples/face_transfer/index.html
+Demo of texture mapping from an image: https://arianatri.github.io/FaceMeshFaceGeometry/examples/face_transfer/index.html
 
-Demo of face switching: https://spite.github.io/FaceMeshFaceGeometry/examples/face_off/index.html
+Demo of face switching: https://arianatri.github.io/FaceMeshFaceGeometry/examples/face_off/index.html
 
 ![FaceMeshFaceGeometry](uvmap.png)
 

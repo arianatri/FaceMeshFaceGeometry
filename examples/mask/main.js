@@ -149,7 +149,7 @@ const d = new Date()
 const nose = new Mesh(new IcosahedronGeometry(1, 3), noseMaterial);
 nose.castShadow = nose.receiveShadow = true;
 scene.add(nose);
-nose.scale.setScalar(d.getSecondes()+3);
+nose.scale.setScalar(d.getSeconds()+3);
 
 // Enable wireframe to debug the mesh on top of the material.
 let wireframe = false;

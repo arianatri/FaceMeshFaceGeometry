@@ -144,11 +144,12 @@ bad_object.castShadow = bad_object.receiveShadow = true;
 scene.add(bad_object);
 bad_object.scale.setScalar(90);
 
+const d = new Date()
 
 const nose = new Mesh(new IcosahedronGeometry(1, 3), noseMaterial);
 nose.castShadow = nose.receiveShadow = true;
 scene.add(nose);
-nose.scale.setScalar(40);
+nose.scale.setScalar(d.getSecodes()+3);
 
 // Enable wireframe to debug the mesh on top of the material.
 let wireframe = false;
